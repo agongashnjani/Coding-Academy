@@ -1,0 +1,116 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightgrey;
+    font-weight: none;
+}
+.container{
+    width: 910px;
+    margin-left: 20%;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 380px;
+    background-image: url(Images/kontakt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+}
+
+input[type="search"]{
+    margin: 5px;
+    background-color: rgba(36, 3, 126, 0.911) ;
+    color:white;
+    float:right;
+    height: 30px;
+}
+button{
+    margin: 5px;
+    background-color: rgba(36, 3, 126, 0.911) ;
+    color:#f6f5f5;
+    float:right;
+    height: 30px;
+}
+#navbar{
+    width: 100%;
+    height: 90px;
+    font-size: 15px;
+    background-color: rgba(36, 3, 126, 0.911);
+}
+#navbar img{
+    width: 20%;
+    float: left;
+}
+#navbar ul {
+    padding-top: 35px;
+}
+#navbar ul li {
+    display: inline;
+    padding: 7px;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color:#f6f5f5;
+    font-size: 14px;
+}
+#navbar ul li a:hover{
+    font-weight:bold ;
+}
+#kryesore{
+    width: 100%;
+    height: 500px;
+}
+article{
+    width: 50%;
+    float: left;
+}
+aside{
+    width: 49;
+    float: right;
+}
+article h1{
+    width: 80%;
+    border-bottom: 2px solid  #B73225;
+    color: #004E7C;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+article img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 10px;
+}
+article p{
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+#fund{
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+#fund img{
+    width: 50px;
+    height: 50px;
+}
+#kontakti{
+    width: 32%;
+    float: left;
+}
+#kontakti img{
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#kontakti p{
+    color: #e6d5b8;
+    text-align: center;
+    
+}
+#kontakti a{
+    text-decoration: none;
+}
